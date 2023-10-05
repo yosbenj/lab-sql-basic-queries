@@ -44,7 +44,7 @@ In this lab, you'll practice the basics of SQL, including how to select data fro
 
 Throughout the lab, you will work with two SQL query files: `sakila-schema.sql`, which creates the database schema, and `sakila-data.sql`, which inserts the data into the database. You can download the necessary files locally by following the steps listed in [Sakila sample database - installation](https://dev.mysql.com/doc/sakila/en/sakila-installation.html). 
 
-You can also use the Entity Relationship Diagram (ERD) of the database to guide your analysis:
+You can also refer to the Entity Relationship Diagram (ERD) of the database to guide your analysis:
 
 <br>
 
@@ -56,12 +56,12 @@ You can also use the Entity Relationship Diagram (ERD) of the database to guide 
 ## Challenge
 Use the sakila database to do the following tasks:
 
-1. Show all tables.
+1. Display all available tables in the Sakila database.
 2. Retrieve all the data from the tables `actor`, `film` and `customer`.
 3. Retrieve the following columns from their respective tables:
-	- 3.1 Titles of all films from the film table
-	- 3.2. List of languages used in films, with the column aliased as language from the language table
-	- 3.3 List of first names of all employees from the staff table
+	- 3.1 Titles of all films from the `film` table
+	- 3.2 List of languages used in films, with the column aliased as `language` from the `language` table
+	- 3.3 List of first names of all employees from the `staff` table
 
 4. Retrieve unique release years.
 5. Counting records for database insights:
