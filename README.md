@@ -72,6 +72,8 @@ Use the sakila database to do the following tasks:
 6. Retrieve the 10 longest films.
 7.  Use filtering techniques in order to:
 	- 7.1 Retrieve all actors with the first name "SCARLETT".
+
+	BONUS: 
 	- 7.2 Retrieve all movies that have ARMAGEDDON in their title and have a duration longer than 100 minutes. 
 	
 		- *Hint: use `LIKE` operator. [More information here.](https://www.w3schools.com/sql/sql_like.asp)*
